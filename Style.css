@@ -1,13 +1,15 @@
-body {
-  background-color: lightblue;
+head {
+  background-color:rgb(23, 58, 58)
 }
 
-h1 {
+title {
   color: white;
   text-align: center;
 }
 
-p {
+table {
   font-family: verdana;
-  font-size: 20px;
+}
+body {
+background-color:rgb(188, 231, 231)
 }
