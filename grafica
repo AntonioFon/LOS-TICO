@@ -1,0 +1,81 @@
+// Esto iria en html
+<div id=contenedor1 class=gris>
+   <div id=titulo1>Visitas por día</div>
+   <div id=grafica1 class=degradadoverde>
+       <div id=lunes class=verde>Lunes 390</div>
+       <div id=martes class=verde>Martes 423</div>
+       <div id=miercoles class=verde>Miércoles 412</div>
+       <div id=jueves class=verde>Jueves 459</div>
+       <div id=viernes class=verde>Viernes 405</div>
+       <div id=sabado class=verde>Sábado 320</div>
+       <div id=domingo class=verde>Domingo 302</div>
+   </div>
+</div>
+// y esto otro en css en la parte de estilo
+#titulo1{
+   font: bold 10pt Verdana, Tahoma, Arial;
+   margin:2 0 5 0px;
+}
+#grafica1 {
+width: 500px;
+   padding:10 0 10 0px;
+   font: bold 8pt Verdana, Tahoma, Arial;
+}
+#lunes{
+   width: 390px;
+   height: 18px;
+   margin: 5 0 5 0px;
+}
+#martes{
+   width: 423px;
+   height: 18px;
+   margin: 5 0 5 0px;
+}
+#miercoles{
+   width: 412px;
+   height: 18px;
+   margin: 5 0 5 0px;
+}
+#jueves{
+   width: 459px;
+   height: 18px;
+   margin: 5 0 5 0px;
+}
+#viernes{
+   width: 405px;
+   height: 18px;
+   margin: 5 0 5 0px;
+}
+#sabado{
+   width: 320px;
+   height: 18px;
+   margin: 5 0 5 0px;
+}
+#domingo{
+   width: 302px;
+   height: 18px;
+   margin: 5 0 5 0px;
+}
+.gris{
+   background-color: #b5b5b5;
+   border-bottom: 2px solid #6b6b6b;
+   border-right: 2px solid #6b6b6b;
+   border-top: 2px solid #f0f0f0;
+   border-left: 2px solid #f0f0f0;
+}
+.morado{
+   background-color: #a05aab;
+   border-bottom: 2px solid #672770;
+   border-right: 2px solid #672770;
+   border-top: 2px solid #d090d9;
+   border-left: 2px solid #d090d9;
+}
+.degradadoverde{
+   background-color: #e1e455;
+   background-image: url('images/degradado-verde.jpg');
+   background-repeat: repeat-x;
+   border-bottom: 2px solid #6f722d;
+   border-right: 2px solid #6f722d;
+   border-top: 2px solid #ece996;
+   border-left: 2px solid #ece996;
+}
